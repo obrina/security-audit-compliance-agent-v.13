@@ -23,7 +23,7 @@ It combines packet-level evidence, policy-aware reasoning, and multi-agent analy
 ## 30-Second Quick Start
 
 ```powershell
-cd C:\saca\saca13
+cd saca13
 Copy-Item .env.example .env.docker
 # Add at least one cloud key in .env.docker (OPENAI_API_KEY or DEEPSEEK_API_KEY or OPENROUTER_API_KEY)
 docker compose --env-file .env.docker up --build
